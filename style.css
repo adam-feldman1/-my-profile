@@ -1,0 +1,94 @@
+body{
+	background-color: rgb(228, 208, 208,1.0);
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+}
+
+h1, h2{
+	  font-family: 'Playfair Display', serif;
+	  color: #364652;
+}
+
+h1 {
+	font-size: 60px;
+  letter-spacing: 5px;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p{
+  font-size: 19px;
+}
+
+p, a{
+	color: rgb(228, 208, 208,1.0);
+}
+
+a{
+  text-decoration: none;
+  font-size: 19px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* design */
+
+.container{
+	width:1000px;
+	margin: auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: auto;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: auto;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: auto;
+  }
+}
+
+.card-pink{
+	padding: 70px;
+	margin-bottom:40px ;
+	border-radius: 10px;
+	box-shadow: 10px 10px 15px #364652;
+	background-color:#FF9999;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+	width : 150px;
+	height : 150px;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+	font-size: 38px;
+}
+
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+
+.link{
+ font-size: 19px;
+}
+
+.a-purple{
+	color: #364652;
+}
